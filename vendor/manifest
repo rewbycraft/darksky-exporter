@@ -2,11 +2,126 @@
 	"version": 0,
 	"dependencies": [
 		{
+			"importpath": "github.com/beorn7/perks/quantile",
+			"repository": "https://github.com/beorn7/perks",
+			"vcs": "git",
+			"revision": "3a771d992973f24aa725d07868b467d1ddfceafb",
+			"branch": "master",
+			"path": "/quantile",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "d3de96c4c28ef8af3aa1a892fc481e0f103c01ff",
+			"branch": "master",
+			"path": "/proto",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf/ptypes/any",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "d3de96c4c28ef8af3aa1a892fc481e0f103c01ff",
+			"branch": "master",
+			"path": "ptypes/any",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"repository": "https://github.com/matttproud/golang_protobuf_extensions",
+			"vcs": "git",
+			"revision": "c12348ce28de40eed0136aa2b644d0ee0650e56c",
+			"branch": "master",
+			"path": "/pbutil",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mlbright/forecast/v2",
+			"repository": "https://github.com/mlbright/forecast",
+			"vcs": "git",
+			"revision": "26159461bcba61a6e1c3e5a6bbb8633cea46aa75",
+			"branch": "master",
+			"path": "/v2",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/client_golang/prometheus",
+			"repository": "https://github.com/prometheus/client_golang",
+			"vcs": "git",
+			"revision": "f30f428035633da15d00d3dfefb0128c5e569ef4",
+			"branch": "master",
+			"path": "/prometheus",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/client_model/go",
+			"repository": "https://github.com/prometheus/client_model",
+			"vcs": "git",
+			"revision": "5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f",
+			"branch": "master",
+			"path": "/go",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/common/expfmt",
+			"repository": "https://github.com/prometheus/common",
+			"vcs": "git",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"branch": "master",
+			"path": "/expfmt",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"repository": "https://github.com/prometheus/common",
+			"vcs": "git",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"branch": "master",
+			"path": "internal/bitbucket.org/ww/goautoneg",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/common/model",
+			"repository": "https://github.com/prometheus/common",
+			"vcs": "git",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"branch": "master",
+			"path": "model",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/prometheus/procfs",
+			"repository": "https://github.com/prometheus/procfs",
+			"vcs": "git",
+			"revision": "185b4288413d2a0dd0806f78c90dde719829e5ae",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/robfig/cron",
+			"repository": "https://github.com/robfig/cron",
+			"vcs": "git",
+			"revision": "b41be1df696709bb6395fe435af20370037c0b4c",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/wadey/gocovmerge",
 			"repository": "https://github.com/wadey/gocovmerge",
 			"vcs": "git",
 			"revision": "b5bfa59ec0adc420475f97f89b58045c721d761c",
 			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"vcs": "git",
+			"revision": "9b4f9f5ad5197c79fd623a3638e70d8b26cef344",
+			"branch": "master",
+			"path": "/context",
 			"notests": true
 		},
 		{
